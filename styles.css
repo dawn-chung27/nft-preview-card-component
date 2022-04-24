@@ -1,0 +1,94 @@
+/* <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> */
+
+html {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding-top: 100px;
+ padding-bottom: 100px;
+ 
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#item-image {
+  width: 300px;
+  border-radius: 10px;
+}
+.contents {
+  border-bottom: solid hsl(216, 21%, 42%) 0.1px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 300px;
+}
+#title {
+  /* border: solid skyblue 4px; */
+  font-family: "Outfit";
+  color: white;
+  font-weight: 600;  
+  font-size: 21px;
+}
+#summary {
+  /* border: solid salmon 3px; */
+  font-family: "Outfit";
+  color: hsl(215, 51%, 70%);
+  font-weight: 300; 
+  font-size: 18px;
+}
+.price-due {
+  /* border: solid salmon 2px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+#price {
+  color: hsl(176, 100%, 53%);
+  font-family: "Outfit";
+  font-weight: 400;
+}
+#due {
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit";
+  font-weight: 400;
+}
+.border-line-rest {
+  /* border: solid blueviolet 3px; */
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 16px;
+}
+#profile-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: solid white 1px;
+}
+#profile-text-1 {
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit";
+  padding-left: 15px;
+}
+#profile-text-2 {
+  font-family: "Outfit";
+  padding-left: 5px;
+  color: rgba(255, 255, 255, 0.774);
+}
